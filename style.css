@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(52, 52, 185);
+    color: yellow;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    background-color: yellow;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+nav ul li a {
+    color: rgb(52, 52, 185);
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+    text-align: center;
+}
+div.a{
+    text-align: center;
+}
+article{
+    border-radius: 25px;
+    background: rgb(52, 52, 185);
+    padding: 20px; 
+    width: 1050px;
+    height: 800x; 
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+div.b{
+    text-align: left;
+}
+h2{
+    color: yellow;
+}
+

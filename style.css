@@ -3,10 +3,18 @@ body {
     margin: 0;
     padding: 0;
 }
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
 header {
     background-color: rgb(52, 52, 185);
     color: yellow;
-    padding: 10px 0;
+    padding: 1px;
     text-align: center;
 }
 nav {
@@ -14,6 +22,7 @@ nav {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    padding: 10px 50px;
 }
 nav ul {
     list-style-type: none;
@@ -31,27 +40,30 @@ nav ul li a {
     color: rgb(52, 52, 185);
     text-decoration: none;
 }
-section {
-    padding: 20px;
+section{
+    padding: 50px;
+    border-radius: 10px;
+    background-color: rgb(52, 52, 185);
+    margin-bottom: 30px;
     text-align: center;
+    color: #fff;
 }
 div.a{
     text-align: center;
-}
-article{
-    border-radius: 25px;
-    background: rgb(52, 52, 185);
-    padding: 20px; 
-    width: 1050px;
-    height: 800x; 
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
 }
 div.b{
     text-align: left;
 }
 h2{
     color: yellow;
+} 
+a {
+    color: #fff;
+    text-decoration: none;
 }
-
+ul a:hover {
+    color:deepskyblue; 
+}
+a:hover {
+    color: yellow;
+}
